@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 55px;
+    background-color: grey;
+    
+}
+    
+
+
+.logo{
+    width: 90px;
+   
+}
+.li-item{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000px;
+}
+.links:hover{
+    color: rgb(201, 119, 20);
+    text-decoration: underline;
+}
+.home-img{
+    width: 100%;
+}
+#about{
+    margin-top: 30px;
+  
+}
+.about-head{
+    display: flex;
+    margin: 13% 0px 0px 8%;
+}
+.abt-des{
+    text-align: left;
+    margin-top: 50px;
+}
+#aboutus{
+   
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    bottom: 0px;
+}
+.aboutimg{
+   width: 600px;
+   height: 400px;
+    margin-left: 350px;
+}
+.abt-img{
+    width: 100%;
+    height: 100%;
+}
+   #menus{   
+     margin-top:200px;
+
+   }
+   
+ .gallery{
+    display: flex;
+    justify-content: space-between;
+   
+ }
+ .galleryy{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .g-img{
+    width: 250px;
+    height: 250px;
+ }
+ .g-imgg{
+    width: 100%;
+    height: 100%;
+ }
+  #experience{
+    margin-top: 50px;
+    color: grey;
+    
+  }
+  .exp{
+   display: flex;
+   justify-content: space-evenly;
+  }
+  #footer{
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    
+}
+    .fcb{
+        text-decoration: none;
+        color: black;
+    }
+    .footerlogo{
+        width: 300px;
+        text-align: center;
+        padding-left: 150px;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+    }
+    
+    .brands{
+        align-items: center;
+        color: black;
+        font-size: 2rem;
+        
+    }
+    
+.icon:hover{
+    background-image: linear-gradient(to bottom right,blue,rgb(95, 47, 158),rgb(11, 6, 40));
+}
+.icon:hover .brands{
+    color: white;
+    /* animation */
+    animation: rotate 2s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    20%{
+        transform: rotate(-40deg);
+    }
+    40%{
+        transform: rotate(40deg);
+    }
+    60%{
+        transform: rotate(-40deg);
+    }
+    80%{
+        transform: rotate(80deg);
+    }
+    100%{
+        transform: rotate(-80deg);
+    }
+}
+
+@media(max-width:760px){
+
+
+}
